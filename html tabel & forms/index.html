@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <form>
+      <label for="name">Ad</label>
+      <input
+        autocomplete="off"
+        placeholder="Zehmet olmasa adinizi daxil edin"
+        id="name"
+        type="text"
+        name="username"
+      />
+      <br />
+
+      <label for="surname">Soyad</label>
+      <input
+        placeholder="Zehmet olmasa soyadinizi daxil edin"
+        id="surname"
+        type="text"
+        name="usersurname"
+      />
+      <br />
+
+      <label for="color">Reng</label>
+      <input name="color" id="color" type="color" />
+      <br />
+
+      <label for="birtday">Dogum tarixi</label>
+      <input name="birthday" id="birtday" type="date" />
+      <br />
+
+      <label for="email">Email</label>
+      <input
+        name="email"
+        placeholder="Zehmet olmasa email adresinizi daxil edin"
+        id="email"
+        type="email"
+      />
+      <br />
+
+      <label for="photo">Foto</label>
+      <input name="file" multiple id="photo" type="file" />
+      <br />
+
+      <label for="hiddenInput">Gizli input</label>
+      <input name="hidden" multiple id="hiddenInput" type="hidden" />
+      <br />
+
+      <label for="remember-me">Meni yadda saxla</label>
+      <input name="remember-me" id="remember-me" type="checkbox" />
+      <br />
+
+      <br />
+
+      <label for="phone">Telefon</label>
+      <input
+        name="phone"
+        placeholder="Zehmet olmasa telefon nomrenizi daxil edin"
+        id="phone"
+        type="number"
+      />
+
+      <br />
+
+      <label for="password">Sifre</label>
+      <input
+        name="password"
+        placeholder="Zehmet olmasa sifrenizi daxil edin"
+        id="password"
+        type="password"
+      />
+
+      <br />
+
+      <label for="langRange">ingilis dili seviyyesi</label>
+      <input name="range" id="langRange" type="range" />
+
+      <br />
+
+      <label for="search">Axtar</label>
+      <input name="search" id="search" type="search" />
+
+      <br />
+
+      <label for="time">Saat</label>
+      <input name="time" id="time" type="time" />
+
+      <br />
+
+      <label for="week">Hefte</label>
+      <input name="week" id="week" type="week" />
+
+      <br />
+
+      <label for="gender">Cinsiyyet</label>
+      <input name="gender" id="gender" value="kisi" type="radio" />
+      <input name="gender" id="gender" value="qadin" type="radio" />
+
+      <br />
+      <label for="message">Mesaj</label>
+
+      <textarea name="message" id="message" cols="20" rows="20"> </textarea>
+      <br />
+      <br />
+
+      <select multiple name="region" id="region">
+        <option value="bakuForValue">Baki</option>
+        <option value="sarayForValue">Saray</option>
+        <option value="genceForValue">Gence</option>
+      </select>
+
+      <br />
+      <button type="submit">Qeydiyyatdan kec!</button>
+    </form>
+  </body>
+</html>
