@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  grid-template:80px 1fr 50px/300px 1fr;
+}
+
+header {
+  grid-column: 2/3;
+  background-color: gray;
+}
+main {
+  background-color: aqua;
+}
+aside {
+  grid-row: 1/4;
+  background-color: rgb(24, 24, 24);
+}
+footer {
+  background-color: blueviolet;
+}
+
